@@ -1,0 +1,54 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 25.0.1706.14
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ProgrammaticAdExchange", "ProgrammaticAdExchange\ProgrammaticAdExchange.csproj", "{C1138ABE-93E5-4DAC-970D-6C029FDF8D65}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ProgrammaticAdExchange.Models", "ProgrammaticAdExchange.Models\ProgrammaticAdExchange.Models.csproj", "{E71867E9-D716-4FE4-9C52-BFC695E0C612}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ProgrammaticAdExchange.Services", "ProgrammaticAdExchange.Services\ProgrammaticAdExchange.Services.csproj", "{336533D5-4EE8-4CD2-A875-012717452A17}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{11FD3F16-2DD0-4050-A08F-6C8A06D1F140}"
+	ProjectSection(SolutionItems) = preProject
+		README.md = README.md
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ProgrammaticAdExchange.Services.Interfaces", "ProgrammaticAdExchange.Services.Interfaces\ProgrammaticAdExchange.Services.Interfaces.csproj", "{0FC0E015-6982-436E-9BD8-41E1FBB9A094}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "UnitTests", "UnitTests\UnitTests.csproj", "{1FE2C8B0-3C45-452C-88C6-2E367CED9539}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{C1138ABE-93E5-4DAC-970D-6C029FDF8D65}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C1138ABE-93E5-4DAC-970D-6C029FDF8D65}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C1138ABE-93E5-4DAC-970D-6C029FDF8D65}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C1138ABE-93E5-4DAC-970D-6C029FDF8D65}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E71867E9-D716-4FE4-9C52-BFC695E0C612}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E71867E9-D716-4FE4-9C52-BFC695E0C612}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E71867E9-D716-4FE4-9C52-BFC695E0C612}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E71867E9-D716-4FE4-9C52-BFC695E0C612}.Release|Any CPU.Build.0 = Release|Any CPU
+		{336533D5-4EE8-4CD2-A875-012717452A17}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{336533D5-4EE8-4CD2-A875-012717452A17}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{336533D5-4EE8-4CD2-A875-012717452A17}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{336533D5-4EE8-4CD2-A875-012717452A17}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0FC0E015-6982-436E-9BD8-41E1FBB9A094}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0FC0E015-6982-436E-9BD8-41E1FBB9A094}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0FC0E015-6982-436E-9BD8-41E1FBB9A094}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0FC0E015-6982-436E-9BD8-41E1FBB9A094}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1FE2C8B0-3C45-452C-88C6-2E367CED9539}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1FE2C8B0-3C45-452C-88C6-2E367CED9539}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1FE2C8B0-3C45-452C-88C6-2E367CED9539}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1FE2C8B0-3C45-452C-88C6-2E367CED9539}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {57E8770A-BF08-4024-BC6D-CE2CABBD2DC2}
+	EndGlobalSection
+EndGlobal
